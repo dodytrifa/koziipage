@@ -5,11 +5,11 @@ import { Button, Jumbotron, InputGroup,FormControl } from 'react-bootstrap';
   return (
     <>
       <Jumbotron className="jumbo">
-        <h1>Hemat Waktu Hemat Biaya</h1>
-        <p>
+        <h1 class="text-center text-white">Hemat Waktu Hemat Biaya</h1>
+        <p class="text-center text-white">
           Berlangganan dengan Kozii dapatkan info menarik
         </p>
-        <InputGroup className="mb-3">
+        <InputGroup className="mb-3 w-50 container">
           <FormControl
             placeholder="Masukkan email untuk berlangganan."
             aria-label="Masukkan email untuk berlangganan."

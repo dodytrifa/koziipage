@@ -6,6 +6,7 @@ import Jumbotron from './components/Jumbotron'
 import Guide from './components/Guide'
 import Icons from './components/Icons'
 import Footer from './components/Footer'
+import Promo from './components/PromoMenarik'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Guide />
       <CarouselPart />
       <Icons />
+      <Promo />
       <Jumbotron />
       <Footer />
     </div>

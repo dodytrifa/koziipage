@@ -3,8 +3,8 @@ import {Nav} from 'react-bootstrap'
 
 export default function Guide() {
   return (
-    <div>
-      <ul class="nav">
+    <div class="container">
+      <ul class="nav text-center">
         <li class="nav-item">
           <a class="nav-link active" href="#">Apa Itu Kozii</a>
         </li>
