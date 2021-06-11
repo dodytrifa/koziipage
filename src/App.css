@@ -1,5 +1,13 @@
 .App {
-  text-align: center;
+  text-align: left;
+}
+
+.navbar {
+  background-color: #FD5D31 !important;
+}
+
+.jumbo {
+  background-color: #FD5D31 !important;
 }
 
 .App-logo {
@@ -13,6 +21,11 @@
   }
 }
 
+a {
+  color: rgb(129, 117, 117) !important;
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -25,14 +38,5 @@
 }
 
 .App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: rgb(129, 117, 117);
 }
