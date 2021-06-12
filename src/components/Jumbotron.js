@@ -9,7 +9,7 @@ import { Button, Jumbotron, InputGroup,FormControl } from 'react-bootstrap';
         <p class="text-center text-white">
           Berlangganan dengan Kozii dapatkan info menarik
         </p>
-        <InputGroup className="mb-3 w-50 container">
+        <InputGroup className="mt-3 mb-3 w-50 container">
           <FormControl
             placeholder="Masukkan email untuk berlangganan."
             aria-label="Masukkan email untuk berlangganan."

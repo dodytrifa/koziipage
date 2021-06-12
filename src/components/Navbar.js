@@ -4,7 +4,9 @@ import '../App.css';
 
 function Navbar() {
   return (
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light ">
+    <div class=" container sticky-top">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
       <a class="navbar-brand" href="/home">
         <img src="/assets/icons/logo.png" height="40" class="d-inline-block align-top" alt=""/>
       </a>
@@ -47,7 +49,8 @@ function Navbar() {
           <button class="btn btn-warning my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
-    </nav>  
+    </nav>
+    </div>  
   )
 }
 

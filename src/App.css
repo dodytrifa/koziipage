@@ -2,6 +2,10 @@
   text-align: left;
 }
 
+.container {
+  padding: 0;
+}
+
 .navbar {
   background-color: #FD5D31 !important;
 }

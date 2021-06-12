@@ -7,6 +7,7 @@ import Guide from './components/Guide'
 import Icons from './components/Icons'
 import Footer from './components/Footer'
 import Promo from './components/PromoMenarik'
+import Apartment from './components/Apartment';
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
       <CarouselPart />
       <Icons />
       <Promo />
+      <Apartment />
       <Jumbotron />
+
       <Footer />
     </div>
     
