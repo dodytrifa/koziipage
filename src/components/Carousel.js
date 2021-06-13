@@ -54,7 +54,6 @@ function CarouselPart() {
             alt="First slide"
           />
         </Carousel.Item>
-
       </Carousel>
     </>
   )

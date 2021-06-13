@@ -1,32 +1,35 @@
 import React from 'react'
-import {Nav} from 'react-bootstrap'
 
 export default function Guide() {
   return (
-    <div class="container">
-      <ul class="nav text-center">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Apa Itu Kozii</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Cara Daftar</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Cara Transaksi</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Testimoni</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Video Tutorial</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pelatihan</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Panduan Lengkap</a>
-        </li>
-      </ul>
+    <div class="nav mt-3  container">
+      <div class="nav container" >
+        <ul class="nav mt-5 container">
+          <li class="nav-item">
+            <a class="nav-link guide" href="#">Apa Itu Kozii</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link guide" href="#">Cara Daftar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link guide" href="#">Cara Transaksi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link guide" href="#">Testimoni</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link guide" href="#">Video Tutorial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link guide" href="#">Pelatihan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link guide" href="#">Panduan Lengkap</a>
+          </li>
+        </ul>
+
+      </div>
+
     </div>
   )
 }
